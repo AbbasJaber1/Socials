@@ -96,3 +96,36 @@ main{
     background-color: green;
     transition: 0.3s;
 }
+
+@media screen and (max-width: 600px) {
+    main {
+      width: 100%;
+      height: auto;
+      border-radius: 0;
+      padding: 10px;
+    }
+  
+    .Top img {
+      width: 100%;
+      height: auto;
+      border-radius: 0;
+    }
+  
+    .Top h1 {
+      font-size: 24px;
+    }
+  
+    .Top h6 {
+      font-size: 12px;
+    }
+  
+    .Top p {
+      font-size: 16px;
+    }
+  
+    .Bottom li {
+      margin: 20px;
+      padding: 10px;
+      padding-right: 15px;
+    }
+  }
